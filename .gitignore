@@ -1,0 +1,6 @@
+.env
+/venv
+/downloaded_files
+__pycache__
+Cookies.dump
+events.csv

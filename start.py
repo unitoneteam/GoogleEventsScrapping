@@ -12,7 +12,7 @@ def main():
     #events=scrapper.getEventsWithFixedPagesOptimized(5)
     #events=scrapper.getAllEventsOptimized(10)
     print("number of scraped events ", len(events))
-    scrapper.writeDictToExcelFile(events,"events.xlsx")
+    scrapper.writeDictToExcelFile(events,"events.csv")
     print("done.")
     
 if __name__ == "__main__":
