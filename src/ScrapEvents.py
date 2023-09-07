@@ -96,6 +96,7 @@ class ScrapEvents():
             ticket_links=[]
             for element in ticket_elements:
                 ticket_links.append(element.get("href"))
+            ticket_links="\n".join(ticket_links)
             result.append({
                 "Day":day,
                 "Month":month,
