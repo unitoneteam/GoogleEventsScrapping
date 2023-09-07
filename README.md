@@ -27,10 +27,12 @@ To use this project, follow these steps:
    pip install -r requirements.txt
 
 5. Create an environment (.env) file in the project directory and set your email and password for configuration. You can use a .env template like this:
+
+   ```bash
    EMAIL=your_email@example.com
    PASSWORD=your_password
 
-6. Google chrome has to be installed on your local machine :-
+7. Google chrome has to be installed on your local machine :-
    https://www.google.com/chrome/?brand=YTUH&gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1o7bN_z0aiY4PU3jom7UIbkc2mkwRgPRURvQp9uOnu7MA-BOQd-eisaAro-EALw_wcB&gclsrc=aw.ds
 
 # Usage
