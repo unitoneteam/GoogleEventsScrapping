@@ -29,6 +29,7 @@ To use this project, follow these steps:
 # Usage
 
    To run the script :-
+   
    ```bash
    python start.py
 
