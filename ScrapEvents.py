@@ -12,7 +12,7 @@ class ScrapEvents():
     def __init__(self,Email,Password,Query):
         self.Email=Email
         self.Password=Password
-        self.cookies={}
+        self.cookies=[]
         self.Query="+".join(Query.split())
         self.checkCookies()
 
@@ -21,6 +21,8 @@ class ScrapEvents():
             with open('Cookies.dump', 'rb') as fp:
                 data = pickle.load(fp)
                 curr_time = time.time()
+                if(len(data)<3):
+                    raise Exception("invalid cookies")
                 for cookie in data:
                     if(curr_time-cookie["expiry"]>=0):
                         raise Exception("cookie expired")
