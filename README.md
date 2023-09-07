@@ -32,5 +32,3 @@ To use this project, follow these steps:
    
    ```bash
    python start.py
-
-
