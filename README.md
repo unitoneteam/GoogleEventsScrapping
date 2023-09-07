@@ -11,10 +11,10 @@ To use this project, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   https://github.com/unitoneteam/GoogleEventsScrapping.git
 
 2. Navigate to the project directory:
-   cd your-repo
+   cd GoogleEventsScrapping
 
 3. Install the required dependencies using pip:
    pip install -r requirements.txt
