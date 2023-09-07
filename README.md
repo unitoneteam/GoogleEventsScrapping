@@ -8,28 +8,29 @@ Readmore_Link, Ticket_Links
 
 To use this project, follow these steps:
 
-1. Clone the repository to your local machine:
+1. Install python version 3.11
+
+2. Clone the repository to your local machine:
 
    ```bash
    https://github.com/unitoneteam/GoogleEventsScrapping.git
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    
    ```bash
    cd GoogleEventsScrapping
 
-4. Install python version 3.11
 
-5. Install the required dependencies using pip:
+4. Install the required dependencies using pip:
    
    ```bash
    pip install -r requirements.txt
 
-6. Create an environment (.env) file in the project directory and set your email and password for configuration. You can use a .env template like this:
+5. Create an environment (.env) file in the project directory and set your email and password for configuration. You can use a .env template like this:
    EMAIL=your_email@example.com
    PASSWORD=your_password
 
-7. Google chrome has to be installed on your local machine :-
+6. Google chrome has to be installed on your local machine :-
    https://www.google.com/chrome/?brand=YTUH&gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1o7bN_z0aiY4PU3jom7UIbkc2mkwRgPRURvQp9uOnu7MA-BOQd-eisaAro-EALw_wcB&gclsrc=aw.ds
 
 # Usage
